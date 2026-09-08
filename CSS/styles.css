@@ -5,11 +5,10 @@ html, body {
     flex-direction: column;
 }
 
-main {  
+.main {  
     flex: 1;
     background-color: #1a1a1a;
   
-   
 
 }
 .footer {
