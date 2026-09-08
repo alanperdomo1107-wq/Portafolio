@@ -7,6 +7,9 @@ html, body {
 
 main {  
     flex: 1;
+    background-color: #1a1a1a;
+  
+   
 
 }
 .footer {
@@ -29,4 +32,20 @@ main {
   padding-top: 15px;
   font-size: 14px;
   color: #888;
+}
+
+
+.caja:hover {
+    background-color: #fbff00;
+    border-radius: 10px;
+     transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.pepe:hover h5{
+   
+  font-size: 3.1em;
+
+
+    
 }
