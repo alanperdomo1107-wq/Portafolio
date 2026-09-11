@@ -1,14 +1,15 @@
 
 * {
-    margin: 0;
+    margin: 1px;
     padding: 0;
     box-sizing: border-box; /* Evita que los paddings rompan el tamaño de tus cajas */
+    
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #505050; /* Un fondo gris claro muy sutil para que resalten las tarjetas */
-    color: #333333;
+    background-color: #240000; /* Un fondo gris claro muy sutil para que resalten las tarjetas */
+    color: #ebe3e3;
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Obliga a la página a ocupar toda la pantalla */
@@ -40,22 +41,22 @@ main {
 .card-img-top {
     height: 220px;
     object-fit: cover; 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(241, 236, 236, 0.08);
 }
 
 .card-title {
     font-weight: 600;
-    color: #222222;
+    color: #f5f5f5;
 }
 
 .card-text {
-    color: #666666;
+    color: #f0eeee;
     font-size: 0.95rem;
 }
 
 
 .pie-pagina {
-    background-color: #252525; /* Fondo oscuro muy profesional */
+    background-color: #0a0a0a; /* Fondo oscuro muy profesional */
     color: #ffffff;
     padding: 40px 20px;
     text-align: center;
@@ -66,13 +67,13 @@ main {
 .contacto-contenedor h3 {
     font-size: 1.4rem;
     margin-bottom: 15px;
-    color: #f8f9fa;
+    color: #fafafa;
 }
 
 .contacto-contenedor p {
     margin-bottom: 8px;
     font-size: 0.95rem;
-    color: #cccccc; /* Texto gris claro para que sea cómodo de leer */
+    color: #fffefe; /* Texto gris claro para que sea cómodo de leer */
 }
 
 .copyright {
@@ -80,5 +81,51 @@ main {
     padding-top: 15px;
     border-top: 1px solid #333333; /* Línea divisoria fina */
     font-size: 0.85rem;
-    color: #888888;
+    color: #f5f3f3;
 }
+
+.box1 {
+    background-color: #be9f5c; /* Fondo gris claro para la tarjeta 1 */
+    padding: 20px;
+    width: 130.4%; /* Ajusta el ancho según tus necesidades */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+    border-radius: 8px; /* Esquinas ligeramente redondeadas para un look moderno */
+
+}
+  
+.box2  {
+    background-color: #020520; /* Fondo gris claro para la tarjeta 2 */
+    padding:20px;
+    width: 130.1%; /* Ajusta el ancho según tus necesidades */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+    border-radius: 8px; /* Esquinas ligeramente redondeadas para un look moderno */
+}
+
+
+.card-tapiceria {
+    width: 130%;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+    border-bottom: 0px solid rgba(0, 0, 0, 0.08); /* Línea sutil debajo de la imagen */
+    margin-top: 20px; /* Espacio superior para separar de otros elementos */
+    border-radius: 8px; /* Esquinas ligeramente redondeadas para un look moderno */
+}
+
+
+.card-cimientos {
+    width: 130%;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+    border-bottom: 0px solid rgba(0, 0, 0, 0.08); /* Línea sutil debajo de la imagen */
+    margin-top: 20px; /* Espacio superior para separar de otros elementos */
+    border-radius: 8px; /* Esquinas ligeramente redondeadas para un look moderno */
+}
+
+
+
+
+
+
+
+
+
