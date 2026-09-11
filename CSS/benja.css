@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Evita que los paddings rompan el tamaño de tus cajas */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #505050; /* Un fondo gris claro muy sutil para que resalten las tarjetas */
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Obliga a la página a ocupar toda la pantalla */
+}
+
+
+main {
+    flex: 1; /* Empuja el footer hacia abajo si hay poco contenido */
+    max-width: 1200px; /* Centra y limita el ancho del contenido de tus tarjetas */
+    width: 100%;
+    margin: 40px auto; /* Agrega espacio arriba/abajo y centra horizontalmente */
+    padding: 0 20px; /* Margen interno para que no pegue a los bordes en celulares */
+}
+
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    border-radius: 12px !important;
+    overflow: hidden; /* Evita que las imágenes se salgan de las esquinas redondeadas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12); 
+}
+/* Control exacto para que tus imágenes no se deformen */
+.card-img-top {
+    height: 220px;
+    object-fit: cover; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+    font-weight: 600;
+    color: #222222;
+}
+
+.card-text {
+    color: #666666;
+    font-size: 0.95rem;
+}
+
+
+.pie-pagina {
+    background-color: #252525; /* Fondo oscuro muy profesional */
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 100px; /* Se asegura de quedarse abajo del todo */
+    width: 100%;
+}
+
+.contacto-contenedor h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #f8f9fa;
+}
+
+.contacto-contenedor p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #cccccc; /* Texto gris claro para que sea cómodo de leer */
+}
+
+.copyright {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #333333; /* Línea divisoria fina */
+    font-size: 0.85rem;
+    color: #888888;
+}
